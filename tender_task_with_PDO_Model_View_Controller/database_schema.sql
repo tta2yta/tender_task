@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS Tenderdb CHARACTER SET latin1 COLLATE latin1_swedish_ci
+
+CREATE TABLE IF NOT EXISTS tender (
+    Id INT PRIMARY KEY,
+    Date_ofCreation DATE,
+    NAME TEXT,
+    CODE TEXT,
+    YEAR YEAR
+)  ENGINE=INNODB;
